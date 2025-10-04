@@ -38,20 +38,22 @@ La aplicación permite **crear**, **listar**, **actualizar** y **eliminar** regi
 4. **Editar el archivo `application.properties`:**
 
    ```properties
+   spring.application.name=CrudSpringBoot
    spring.datasource.url=jdbc:mysql://localhost:3306/tu_baseDatos
    spring.datasource.username=root
    spring.datasource.password=tu_contraseña
-
+   spring.datasource.drive-class-name=com.mysql.jdbc.Driver
+   
+   # Muestra el sql
+   spring.jpa.show-sql:true
+   
    # Actualiza la tabla (solo si ya existe)
    spring.jpa.hibernate.ddl-auto=update
 
    # Crear la tabla desde cero o hacer cambios en ella
    # spring.jpa.hibernate.ddl-auto=create-drop
 
-   spring.jpa.show-sql=true
-   spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
-   server.port=8080
    ```
 
 ---
