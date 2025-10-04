@@ -45,7 +45,7 @@ La aplicación permite **crear**, **listar**, **actualizar** y **eliminar** regi
    # Actualiza la tabla (solo si ya existe)
    spring.jpa.hibernate.ddl-auto=update
 
-   # Crear la tabla desde cero o hacer cambios drásticos (descomentar si es necesario)
+   # Crear la tabla desde cero o hacer cambios en ella
    # spring.jpa.hibernate.ddl-auto=create-drop
 
    spring.jpa.show-sql=true
