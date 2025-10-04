@@ -27,6 +27,7 @@ La aplicación permite **crear**, **listar**, **actualizar** y **eliminar** regi
 3. Crear la base de datos MySQL:
    CREATE DATABASE estudiantes_db;
 4. Editar el archivo application.properties:
+
   spring.datasource.url=jdbc:mysql://localhost:3306/tu_baseDatos
   spring.datasource.username=root
   spring.datasource.password=tu_contraseña
