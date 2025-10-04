@@ -15,7 +15,6 @@ La aplicación permite **crear**, **listar**, **actualizar** y **eliminar** regi
   - MySQL Driver
 - **MySQL**  
 - **Maven**  
-- **IntelliJ IDEA** (o tu IDE preferido)
 
 ---
 
@@ -23,7 +22,7 @@ La aplicación permite **crear**, **listar**, **actualizar** y **eliminar** regi
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+   git clone https://github.com/miguelangel200072/CrudSpringBoot.git
 2. Importar el proyecto en tu IDE como proyecto Maven.
 3. Crear la base de datos MySQL:
    CREATE DATABASE estudiantes_db;
